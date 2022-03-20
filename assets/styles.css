@@ -1,1 +1,21 @@
 /*REMEBER TO COMMENT ON ALL THE SYLES TO NOT GET LOST*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F0FFF0;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: #cdffcd;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
