@@ -52,3 +52,23 @@ header nav ul li a {
     font-size: 20px;
 }
 /*end header styles for now*/
+
+/*HERO section*/
+
+.hero {
+    background-image: url('../assets/images/flower-field.jpg');
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+    padding: 5px;
+}
+
+.hero h3 {
+    text-align: left;
+    padding-left: 750px;
+    padding-top: 50px;
+}
