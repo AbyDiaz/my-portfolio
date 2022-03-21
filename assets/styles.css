@@ -13,7 +13,7 @@ body {
 }
 
 /*header and navgation styles*/
-
+ 
 header {
     padding: 20px 35px;
     background-color: #cdffcd;
@@ -95,3 +95,53 @@ header nav ul li a {
 }
 
 /*end about me section*/
+
+.work h2 {
+    margin: 56px;
+    padding: 10px;
+    float: left;
+}
+
+.work-box {
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    justify-content: space-between;
+    display: inline-block;
+    border-left-style: solid;
+}
+
+
+/*end work section*/
+
+/*footer section*/
+footer {
+    padding: 20px 35px;
+    background-color: #cdffcd;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+
+ footer h2 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 25px;
+    padding: 25px 35px;
+
+ }
+
+ footer section {
+     margin: 10px;
+     padding: 10px;
+     width: 75%;
+ }
+
+ footer section div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+ }
+
+/*end footer section*/
